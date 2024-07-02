@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  /* background: linear-gradient(to right, #000000, #e74c3c); */
+  color: black;
+  /* font-family: Arial, sans-serif; */
+}
+.main-container{
+  margin: 0 10vw;
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 30px 0; */
+  background-image: url(https://www.kalyanjewellers.net/images/Jewellery/Rings/images/jewellery_rings_banner.jpg);
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+}
+nav li {
+  list-style: none;
+}
+nav img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10vw;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-right: 40px;
+}
+nav ul li a {
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+}
+.nav-right-section {
+  display: flex;
+  align-items: center;
+}
+.nav-middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-right-section button {
+  background: linear-gradient(to right, #000000, #e74c3c);
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+  color: white;
+}
+nav ul li:first-child a {
+  font-weight: 700;
+  font-size: 14px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+.underline{
+  background-color: brown;
+  height: 2px;
+  width: 50px;
+  margin: 10px auto 25px auto;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 60px;
+}
+.box1{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/Dasavtar%20Collection.webp);
+  background-size: cover;
+}
+.box2{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/top%20trending%20clxn2/Plique%20A%20Zour%20Collection.webp);
+  background-size: cover;
+  /* display: inline-block; */
+}
+.box3{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/Browse%20By%20Category/top-collections-website-banner-12.webp);
+  background-size: cover;
+}
+.box4{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/Mangal%20Sutra%20Collection.webp);
+  background-size: cover;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.box5{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/top%20trending%20clxn2/Mirosa%20Collection.webp);
+  background-size: cover;
+}.box6{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/top%20trending%20clxn2/Expresso%20Collection.webp);
+  background-size: cover;
+}.box7{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/top%20trending%20clxn2/Bandhan%20Collection.webp);
+  background-size: cover;
+}.box8{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/top%20trending%20clxn2/Amour%20Collection.webp);
+  background-size: cover;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.box9{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/Initial%20Collection.webp);
+  background-size: cover;
+}
+.box10{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/top%20trending%20clxn2/Twinning%20Collection.webp);
+  background-size: cover;
+}
+.box11{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/Inayat%20Collection.webp);
+  background-size: cover;
+}
+.box12{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/top%20trending%20clxn/La%20Danza%20Collection%20webp.webp);
+  background-size: cover;
+}
+.vwclink{
+  font-size: 12px;
+  color: brown;
+  border: 1px solid brown;
+  text-align: center;
+  width: 195px;
+  padding: 5px;
+  display: inline-block;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 70px;
+}
+.a1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgs{
+  width: 391px;
+  height: 491px;
+  background-image: url(https://cf-cdn.pcjeweller.com/public/uploads/editor-images/best-sale/best-sellers.jpg);
+  background-size: cover;
+}
+.bbc{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.imgs1{ 
+  height: 556px;
+  width: 596px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container3{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  margin: auto;
+}
+#img3 .img1{
+  height: 556px;
+  width: 596px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#img3 .img2{ 
+  height: 556px;
+  width: 596px;
+  text-decoration: none;
+  cursor: pointer;
+}
+h6{
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+h1 h2 h3 h4 h5 h6 p{
+  margin: 0px;
+  padding: 0 0 8px;
+}
+.pr5-1{
+  width: 380;
+  height: 380;
+}
+.prin-1{
+  /* display: ; */
+  text-align: center;
+}
+.container5{
+  display: flex;
+  justify-content: center;
+}
+.social-icon{
+  text-align: center;
+}
+.social-icon a{
+  background-image: url(https://www.pcjeweller.com/assets/v2/public/default/frontend/custom/images/spritesheet.png);
+  height: 40px;
+  width: 195px;
+  display: inline-block;
+  margin: 0 10px 10px;
+  opacity: .5;
+  transition: all ease-in .5s;
+}
+.social-icon a.facebook{
+  background-position: -11px -11px;
+}
+.social-icon a.twitter{
+  background-position: -228px -11px;
+}
+.social-icon a.instagram{
+  background-position: -10px -120px;
+}
+.social-icon a.pinterest{
+  background-position: -11px -182px;
+}
+.social-icon:hover{
+  opacity: 1;
+  /* transition: all 0.5s ease; */
+}
+.payment-options{
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.payment-options h6{
+  /* display: flex; */
+  /* display: inline; */
+  font-size: 12px;
+  margin-right: 20px;
+  line-height: 50px;
+  /* justify-content: space-between; */
+}
+.img-responsive{
+  display: block;
+  /* display: inline-block; */
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+.footer-section {
+  width: 100%;
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  background-color: gainsboro;
+}
+
+.footer-section h2 {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.footer-section h2::after {
+  content: '';
+  width: 4rem;
+  height: .2rem;
+  background: #149b59;
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+}
+.footer-section p {
+  transition: all .2s linear;
+  margin-bottom: .6em;
+}
+.footer-section p:hover {
+  transition: all .2s linear;
+  transform: translateX(4px);
+}
+.footer-section a:hover {
+  color: #149b59;
+}
+p a{
+  color: black;
+}
+.footer-item {
+  margin: 1rem;
+}
+.footer-item ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
