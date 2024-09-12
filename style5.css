@@ -343,6 +343,7 @@ h1 h2 h3 h4 h5 h6 p{
   width: 4rem;
   height: .2rem;
   background: #149b59;
+  margin-bottom: 20px;
   position: absolute;
   top: 2.5rem;
   left: 0;
